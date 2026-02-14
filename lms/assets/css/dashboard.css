@@ -1,0 +1,56 @@
+/* Dashboard Common Styles */
+.dashboard-container { max-width: 1200px; margin: 0 auto; }
+.welcome-section { text-align: center; margin-bottom: 2rem; }
+
+/* Stats Grid */
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+.stat-card { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: flex; align-items: center; gap: 1rem; }
+.stat-card.users { border-left: 4px solid #007bff; }
+.stat-card.courses { border-left: 4px solid #28a745; }
+.stat-card.enrollments { border-left: 4px solid #ffc107; }
+.stat-card.revenue { border-left: 4px solid #dc3545; }
+.stat-card.students { border-left: 4px solid #007bff; }
+.stat-card.enrolled { border-left: 4px solid #28a745; }
+.stat-card.transactions { border-left: 4px solid #007bff; }
+.stat-card.available { border-left: 4px solid #ffc107; }
+.stat-icon { font-size: 2.5rem; }
+.stat-content h3 { margin: 0 0 0.5rem 0; color: #666; font-size: 0.9rem; }
+.stat-value { font-size: 1.8rem; font-weight: bold; color: #333; }
+.stat-detail { font-size: 0.8rem; color: #888; }
+.stat-link { color: #007bff; text-decoration: none; font-size: 0.9rem; }
+
+/* Dashboard Grid Layout */
+.dashboard-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; }
+.quick-actions-section, .recent-activities-section { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+
+/* Quick Actions */
+.actions-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+.action-card { display: flex; align-items: center; gap: 1rem; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px; text-decoration: none; color: inherit; transition: all 0.2s; }
+.action-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.action-icon { font-size: 2rem; }
+.action-content h4 { margin: 0 0 0.25rem 0; color: #333; }
+.action-content p { margin: 0; color: #666; font-size: 0.9rem; }
+
+/* Activities List */
+.activities-list { max-height: 400px; overflow-y: auto; }
+.activity-item { display: flex; align-items: center; gap: 1rem; padding: 0.75rem 0; border-bottom: 1px solid #f0f0f0; }
+.activity-item:last-child { border-bottom: none; }
+.activity-icon { font-size: 1.5rem; }
+.activity-content { flex: 1; }
+.activity-text { font-size: 0.9rem; }
+.activity-time { font-size: 0.8rem; color: #888; }
+
+/* Status Badges */
+.status { padding: 2px 6px; border-radius: 3px; font-size: 0.8rem; margin-left: 0.5rem; }
+.status-paid { background: #d4edda; color: #155724; }
+.status-failed { background: #f8d7da; color: #721c24; }
+.status-pending { background: #fff3cd; color: #856404; }
+.status-published { background: #d4edda; color: #155724; }
+.status-draft { background: #fff3cd; color: #856404; }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .dashboard-grid { grid-template-columns: 1fr; }
+    .stats-grid { grid-template-columns: 1fr; }
+    .actions-grid { grid-template-columns: 1fr; }
+}

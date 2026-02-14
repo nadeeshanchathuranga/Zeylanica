@@ -1,0 +1,144 @@
+/* Inner Hero Section - for about.php and other inner pages */
+.inner-cover {
+    background-image: url("../images/inner-banner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+ 
+}
+.reg-cover{
+    background-image: url("../images/register-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 3000px;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+ 
+}
+
+.custom-file-upload input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload .upload-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  
+    border-radius: 25px;
+    padding: 8px 3px;
+    cursor: pointer;
+}
+
+.custom-file-upload .upload-btn i {
+    background: #fff;
+    color: #000088;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+     
+}
+
+.custom-file-upload .upload-btn span {
+    font-weight: 600;
+    color: #1a1a1a;
+    background-color: #fff;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.custom-file-upload .upload-btn small {
+     padding-left: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+.reg-communication-method .form-check .form-check-input {
+    float: left;
+    margin-left: -1.5em;
+    font-size: 17px;
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+.me-51{
+    margin-right: 6.5em;
+}
+
+
+/*mobile*/
+
+@media only screen and (max-width: 767px) {
+.reg-cover {
+   
+    height: auto;
+   
+}
+}
+
+
+/*vertical*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+.inner-cover {
+    
+    height: 500px;
+    
+}
+.reg-cover {
+   
+    height: auto;
+   
+}
+
+}
+
+
+
+/*landscape*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.inner-cover {
+    
+    height: 450px;
+   
+}
+.reg-cover {
+   
+    height: auto;
+   
+}
+
+
+
+}
+
+
+ 
+@media (min-width: 1400px) {
+   .inner-cover {
+    
+    height: 750px;
+    
+    
+}
+
+ .inner-hero .col-lg-8{
+margin-top: 5em;
+ }
+
+
+}

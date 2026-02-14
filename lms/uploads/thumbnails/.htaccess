@@ -1,0 +1,5 @@
+Options -Indexes
+SetEnvIf Request_URI "\.(gif|jpe?g|png)$" image
+Order deny,allow
+Deny from all
+Allow from env=image
