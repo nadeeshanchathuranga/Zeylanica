@@ -79,7 +79,22 @@
 .bg-image-none {
        background: linear-gradient(180deg, #000022 0%, #0202C5 100%);
 }
+
+/* contact-left */
+.contact-left{
+     background-image: url("../images/contact-left-banner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 490px;
+    width: 100%;
+    position: relative;
  
+}
+ .contact-right .form-check-input:checked {
+    background-color: #000000;
+    border-color: #000000;
+}
 
 
 /*mobile*/
