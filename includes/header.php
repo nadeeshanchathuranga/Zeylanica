@@ -53,13 +53,15 @@
 <?php
 $page = basename(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
 
-if ($page == 'index.php' || $page == '') {
-    $coverClass = 'main-cover';
-} elseif ($page == 'register.php') {
-    $coverClass = 'reg-cover';
-} else {
-    $coverClass = 'inner-cover';
-}
+$classes = [
+    'index.php' => 'main-cover',
+    'register.php' => 'reg-cover',
+    'single-news.php' => 'bg-image-none',
+    'news.php' => 'inner-cover',
+    'about.php' => 'inner-cover',
+];
+
+$coverClass = $classes[$page] ?? 'inner-cover';
 ?>
 
 <div class="<?php echo $coverClass; ?>">

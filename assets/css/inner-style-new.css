@@ -76,6 +76,11 @@
     margin-right: 6.5em;
 }
 
+.bg-image-none {
+       background: linear-gradient(180deg, #000022 0%, #0202C5 100%);
+}
+ 
+
 
 /*mobile*/
 
@@ -84,6 +89,9 @@
    
     height: auto;
    
+}
+.font-42 {
+    font-size: 24px;
 }
 }
 
@@ -101,6 +109,9 @@
    
     height: auto;
    
+}
+.font-42 {
+    font-size: 27px;
 }
 
 }
@@ -120,6 +131,10 @@
    
     height: auto;
    
+}
+
+.font-42 {
+    font-size: 30px;
 }
 
 

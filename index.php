@@ -114,10 +114,10 @@
 
 <div class="social-glass">
   <ul>
-    <li><a href="#" class="hvr-grow"><i class="fab fa-facebook-f font-16"></i></a></li>
-    <li><a href="#" class="hvr-grow"><i class="fab fa-instagram font-16"></i></a></li>
-    <li><a href="#" class="hvr-grow"><i class="fab fa-x-twitter font-16"></i></a></li>
-    <li><a href="#" class="hvr-grow"><i class="fab fa-whatsapp font-16"></i></a></li>
+    <li><a href="#"  target="_blank" class="hvr-grow"><i class="fab fa-facebook-f font-16"></i></a></li>
+    <li><a href="#" target="_blank" class="hvr-grow"><i class="fab fa-instagram font-16"></i></a></li>
+    <li><a href="#" target="_blank" class="hvr-grow"><i class="fab fa-x-twitter font-16"></i></a></li>
+    <li><a href="#"  target="_blank" class="hvr-grow"><i class="fab fa-whatsapp font-16"></i></a></li>
   </ul>
 </div>
 

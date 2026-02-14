@@ -52,6 +52,9 @@ ul li {
     font-size: 60px;
 }
 
+.font-42 {
+    font-size: 42px;
+}
 .font-48 {
     font-size: 48px;
 }
@@ -758,7 +761,8 @@ ul li {
 position: absolute;
     width: 90%;
 }
- 
+
+
 
 
 
