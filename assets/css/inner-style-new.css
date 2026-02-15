@@ -150,6 +150,15 @@
     background-color: #fff;
     border: 2px solid #0D0DC7;
 }
+
+
+.reg-12 .form-check .form-check-input {
+    float: left;
+    margin-left: -1.5em;
+    font-size: 17px;
+    border: 2px solid #0D0DC7;
+    background-color: #0D0DC7;
+}
 /*mobile*/
 
 @media only screen and (max-width: 767px) {
@@ -157,6 +166,9 @@
    
     height: auto;
    
+}
+.font-24 {
+    font-size: 20px;
 }
 .font-42 {
     font-size: 24px;
@@ -171,6 +183,10 @@
 }
 .login-right{
 padding: 4em 0;
+}
+
+.font-18 {
+    font-size: 18px;
 }
 }
 
