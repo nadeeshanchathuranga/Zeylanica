@@ -96,6 +96,28 @@
     border-color: #000000;
 }
 
+/* lesson-section */
+.lesson-section {
+    background-color: #EBF3FF; /* fallback color */
+    background-image: url("../images/d-1.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+
+    width: 100%;
+    min-height: 100vh; /* better than fixed height */
+    position: relative;
+}
+.lesson-1{
+    background-image: url("../images/r4.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+
+    width: 100%;
+    min-height: 225px;  
+    position: relative; 
+}
 
 /*mobile*/
 

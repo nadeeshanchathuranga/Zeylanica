@@ -57,6 +57,7 @@ $classes = [
     'index.php' => 'main-cover',
     'register.php' => 'reg-cover',
     'single-news.php' => 'bg-image-none',
+    'student-dashboard.php' => 'bg-image-none',
     'news.php' => 'inner-cover',
     'about.php' => 'inner-cover',
 ];
